@@ -1,22 +1,17 @@
 import React from 'react'
-import { withTranslation } from 'react-i18next';
-import i18n from './i18n';
 import  Header  from '../Header';
-import { AboutMe } from '../AboutMe';
+import AboutMe from '../AboutMe';
+import LanguageProvider from '../LanguageProvider';
 
 
-function AppUI({ t }) {
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
-    };
+function AppUI() {
 
     return (
-        <>
+        <LanguageProvider>
             <Header />
             <AboutMe />
-            
-        </>
+        </LanguageProvider>
     )
 }
 
-export default withTranslation()( AppUI );
+export default AppUI;

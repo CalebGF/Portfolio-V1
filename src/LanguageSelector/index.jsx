@@ -1,13 +1,11 @@
 import React from 'react';
-import { withTranslation } from 'react-i18next';
+import { LanguageContext } from '../LanguageProvider';
 import spainFlag from '../assets/images/flags/es.svg';
 import ukFlag from '../assets/images/flags/gb.svg';
 import './LanguageSelector.css';
 
-function LanguageSelector({ i18n }) {
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+function LanguageSelector() {
+  const { changeLanguage } = React.useContext(LanguageContext);
 
   return (
         <div className="row languages-icons justify-content-between">
@@ -30,4 +28,4 @@ function LanguageSelector({ i18n }) {
   );
 }
 
-export default withTranslation()(LanguageSelector);
+export default LanguageSelector;

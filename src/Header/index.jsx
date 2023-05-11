@@ -1,9 +1,11 @@
 import './Header.css';
 import React from 'react';
-import { withTranslation } from 'react-i18next';
+import { LanguageContext } from '../LanguageProvider';
+import { useContext } from 'react';
 import LanguageSelector from '../LanguageSelector';
 
-function Header({ t: tH }) {
+function Header() {
+    const { t } = useContext(LanguageContext);
     return (
         <header className="container-fluid">
             
@@ -25,16 +27,16 @@ function Header({ t: tH }) {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav me-auto my-2 mb-lg-0 text-center">
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#aboutMe">{tH('aboutMe')}</a>
+                                        <a className="nav-link" href="#aboutMe">{t('aboutMe')}</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#skills">{tH('skills')}</a>
+                                        <a className="nav-link" href="#skills">{t('skills')}</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#projects">{tH('projects')}</a>
+                                        <a className="nav-link" href="#projects">{t('projects')}</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#contact">{tH('contact')}</a>
+                                        <a className="nav-link" href="#contact">{t('contact')}</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#contact"><LanguageSelector /></a>
@@ -51,10 +53,10 @@ function Header({ t: tH }) {
 
             <div className="welcome-header">
 
-                <h1>{tH('welcome')}</h1>
+                <h1>{t('welcome')}</h1>
             </div>
         </header>
     );
 }
 
-export default withTranslation()(Header);
+export default Header;
