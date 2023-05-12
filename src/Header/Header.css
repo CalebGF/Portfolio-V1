@@ -6,9 +6,6 @@
 }
 
 header {
-    /* global 94%+ browsers support */
-    background:linear-gradient(150deg, rgba(68, 48, 140, 1) 1%, rgba(50, 75, 127, 1) 37%, rgba(63, 142, 157, 0.86) 65%, rgba(165, 215, 232, 1) 91%);
-    
     height: 100vh;
 }
 

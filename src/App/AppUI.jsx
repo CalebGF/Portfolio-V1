@@ -4,7 +4,8 @@ import  Header  from '../Header';
 import AboutMe from '../AboutMe';
 import Skills from '../Skills';
 import Projects from '../Projects';
-
+import Contact from '../Contact';
+import './AppUI.css';
 
 function AppUI() {
 
@@ -14,6 +15,7 @@ function AppUI() {
             <AboutMe />
             <Skills />
             <Projects />
+            <Contact />
         </LanguageProvider>
     )
 }

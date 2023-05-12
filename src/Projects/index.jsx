@@ -10,13 +10,13 @@ function Projects() {
         <div className="container-fluid projects">
             <h3 className='text-center py-4'>{t('projects')}</h3>
             <div className="row justify-content-between">
-                <div className="col-12 col-md-4 justify-content-center">
+                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
                     <ProjectCard name="simon-says" />
                 </div>
-                <div className="col-12 col-md-4 justify-content-center">
+                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
                     <ProjectCard name="simon-says" />
                 </div>
-                <div className="col-12 col-md-4 justify-content-center">
+                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
                     <ProjectCard name="simon-says" />
                 </div>
             </div>

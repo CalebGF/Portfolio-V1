@@ -4,6 +4,7 @@
     "skills": "Technical skills",
     "projects": "Projects",
     "contact": "Contact Me",
+    "contactText": "If you are interested in learning more about my work, do not hesitate to visit my LinkedIn profile or send me an email",
     "aboutMeText": "I am a fullstack developer with a mindset of learning and continuous improvement. I am constantly looking for new technologies and tools to expand my ability in order to create efficient and high-quality solutions. I firmly believe that code is a powerful tool to positively impact our society",
     "description1": "Interactive game developed to practice Javascript"
   }

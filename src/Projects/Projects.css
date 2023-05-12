@@ -1,5 +1,5 @@
 .projects {
-    height: 700px;
+    padding: 2rem 0;
 }
 
 .project-card {
@@ -26,9 +26,10 @@
 }
 
 @media screen and (max-width: 450px) {
+    
     .project-hover {
         position: absolute;
-        top: 25%;
+        top: 30%;
         left: 0;
         width: 100%;
         height: 70%;

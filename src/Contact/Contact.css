@@ -1,0 +1,18 @@
+.contact {
+    height: 300px;
+}
+
+.contact-text {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.contact-links {
+    margin: 0 auto;
+}
+
+.contact-icon {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}

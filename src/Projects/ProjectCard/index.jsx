@@ -17,7 +17,7 @@ function ProjectCard({
                 
                 <p className="card-text text-center">{t('description1')}</p>
 
-                <div className="project-links row justify-content-center pt-3">
+                <div className="project-links row justify-content-center">
                     <div className="col-4 mx-4">
                         <a href={link} className="btn btn-primary">Website</a>
                     </div>
