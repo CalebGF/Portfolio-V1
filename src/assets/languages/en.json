@@ -1,7 +1,8 @@
 {
     "welcome": "Welcome to my portfolio!",
     "aboutMe": "About Me",
-    "skills": "Skills",
+    "skills": "Technical skills",
     "projects": "Projects",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "aboutMeText": "I am a fullstack developer with a mindset of learning and continuous improvement. I am constantly looking for new technologies and tools to expand my ability in order to create efficient and high-quality solutions. I firmly believe that code is a powerful tool to positively impact our society"
   }
