@@ -1,0 +1,40 @@
+.projects {
+    height: 700px;
+}
+
+.project-card {
+    position: relative;
+    color: #fff;
+    width: 350px;
+    margin: 2rem auto;
+}
+
+.project-card:hover .project-hover {
+    opacity: 1;
+}
+
+.project-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 40px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 450px) {
+    .project-hover {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        padding: 3rem 40px;
+        opacity: 1;
+        transition: 0.5s ease;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}

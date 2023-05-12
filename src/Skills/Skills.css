@@ -1,4 +1,9 @@
 .skills {
-    height: 500px;
+    height: 700px;
 }
 
+.skill-card {
+    width: 100px;
+    border: none;
+    margin: 0 auto;
+}

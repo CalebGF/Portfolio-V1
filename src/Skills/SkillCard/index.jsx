@@ -1,5 +1,4 @@
 import React from "react";
-import "./SkillCard.css";
 
 function SkillCard(props) {
     const skill = props;

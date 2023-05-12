@@ -4,5 +4,6 @@
     "skills": "Habilidades técnicas",
     "projects": "Proyectos",
     "contact": "Contáctame",
-    "aboutMeText": "Soy un desarrollador fullstack con una mentalidad de aprendizaje y mejora continua. Constantemente estoy en busca de nuevas tecnologías y herramientas para expandir mi capacidad de crear soluciones eficientes y de alta calidad. Creo firmemente que el código es una herramienta poderosa para impactar positivamente a nuestra sociedad"
+    "aboutMeText": "Soy un desarrollador fullstack con una mentalidad de aprendizaje y mejora continua. Constantemente estoy en busca de nuevas tecnologías y herramientas para expandir mi capacidad de crear soluciones eficientes y de alta calidad. Creo firmemente que el código es una herramienta poderosa para impactar positivamente a nuestra sociedad",
+    "description1": "Juego interactivo desarrollado para prácticar Javascript"
   }

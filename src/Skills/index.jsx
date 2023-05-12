@@ -12,10 +12,10 @@ function Skills() {
 
     return (
         <div className="container-fluid skills">
-            <h3 className="text-center pt-3">{t("skills")}</h3>
+            <h3 className="text-center py-4">{t("skills")}</h3>
             <div className="row">
                 { skillLogos.map((logo, i) => (
-                    <div className="col-6 col-md-2">
+                    <div className="col-4 col-md-2 pt-3">
                         <SkillCard key={i} logo={logo} name={skillNames[i]} />
                     </div>
                 ))}
