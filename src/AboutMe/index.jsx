@@ -13,7 +13,7 @@ function AboutMe() {
                     <p className="text-justify">{t('aboutMeText')}</p>
                 </div>
                 <div className="col-12 col-md-4">
-                    <img className="img-fluid" src="src/assets/images/selfie.png" alt="Selfie of Caleb" border="0" />
+                    <img className="img-fluid" src="./src/assets/images/selfie.png" alt="Selfie of Caleb" border="0" />
                 </div>
             </div>
         </div>

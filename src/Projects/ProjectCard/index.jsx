@@ -7,7 +7,7 @@ function ProjectCard({
         link 
     }) {
     const { t } = useContext(LanguageContext);
-    const imageSrc = `src/assets/images/project-images/${name}.jpeg`;
+    const imageSrc = `./src/assets/images/project-images/${name}.jpeg`;
     return (
         <div className="card project-card">
             <img src={imageSrc} className="card-img-top" alt={"Website " + name} />
