@@ -1,7 +1,7 @@
 import React from 'react';
 import { LanguageContext } from '../LanguageProvider';
-import spainFlag from '../assets/images/flags/es.svg';
-import ukFlag from '../assets/images/flags/gb.svg';
+import spainFlag from '../../public/images/flags/es.svg';
+import ukFlag from '../../public/images/flags/gb.svg';
 import './LanguageSelector.css';
 
 function LanguageSelector() {

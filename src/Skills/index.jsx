@@ -8,7 +8,7 @@ function Skills() {
     const { t } = useContext(LanguageContext);
 
     const skillNames = ['css', 'firebase', 'git', 'html', 'javascript', 'node', 'postgresql', 'react', 'tailwindcss']; 
-    const skillLogos = skillNames.map(name => `./src/assets/images/skill-logos/${name}-logo.svg`); 
+    const skillLogos = skillNames.map(name => `./images/skill-logos/${name}-logo.svg`); 
 
     return (
         <div className="container-fluid skills">
