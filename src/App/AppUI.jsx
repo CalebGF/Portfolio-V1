@@ -10,13 +10,15 @@ import './AppUI.css';
 function AppUI() {
 
     return (
-        <LanguageProvider>
-            <Header />
-            <AboutMe />
-            <Skills />
-            <Projects />
-            <Contact />
-        </LanguageProvider>
+        <div className="container">
+            <LanguageProvider>
+                <Header />
+                <AboutMe />
+                <Skills />
+                <Projects />
+                <Contact />
+            </LanguageProvider>
+        </div>
     )
 }
 

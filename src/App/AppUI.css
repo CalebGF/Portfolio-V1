@@ -1,4 +1,36 @@
 body {
     background:linear-gradient(150deg, rgba(68, 48, 140, 1) 1%, rgba(50, 75, 127, 1) 37%, rgba(63, 142, 157, 0.86) 65%, rgba(165, 215, 232, 1) 91%);
+    /* background-color: #000; */
     color: #fff;
+}
+
+section {
+    min-height: 550px;
+    margin: 3rem 0;
+}
+
+.section-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    padding-bottom: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+.section-heading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 160px;
+    height: 5px;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    background:linear-gradient(90deg, rgba(51, 60, 150, 1) 0%, rgba(65, 48, 140, 1) 50%, rgba(51, 112, 150, 1) 100%);
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
 }

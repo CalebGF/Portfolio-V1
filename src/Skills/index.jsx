@@ -11,16 +11,18 @@ function Skills() {
     const skillLogos = skillNames.map(name => `./images/skill-logos/${name}-logo.svg`); 
 
     return (
-        <div className="container-fluid skills">
-            <h3 className="text-center py-4">{t("skills")}</h3>
-            <div className="row">
-                { skillLogos.map((logo, i) => (
-                    <div className="col-4 col-md-2 pt-3">
-                        <SkillCard key={i} logo={logo} name={skillNames[i]} />
-                    </div>
-                ))}
+        <section className="skills">
+            <div className="container">
+                <h3 className="section-heading">{t("skills")}</h3>
+                <div className="row">
+                    { skillLogos.map((logo, i) => (
+                        <div className="col-4 col-md-2 pt-3">
+                            <SkillCard key={i} logo={logo} name={skillNames[i]} />
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
 

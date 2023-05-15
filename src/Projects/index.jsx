@@ -7,20 +7,22 @@ import ProjectCard from './ProjectCard';
 function Projects() {
     const { t } = useContext(LanguageContext);
     return (
-        <div className="container-fluid projects">
-            <h3 className='text-center py-4'>{t('projects')}</h3>
-            <div className="row justify-content-between">
-                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
-                    <ProjectCard name="simon-says" />
-                </div>
-                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
-                    <ProjectCard name="simon-says" />
-                </div>
-                <div className="col-12 col-md-6 col-xl-4 justify-content-center">
-                    <ProjectCard name="simon-says" />
+        <section className="projects">
+            <div className="container">
+                <h3 className='text-center section-heading'>{t('projects')}</h3>
+                <div className="row">
+                    <div className="col-12 col-md-6 col-xl-4">
+                        <ProjectCard name="simon-says" />
+                    </div>
+                    <div className="col-12 col-md-6 col-xl-4">
+                        <ProjectCard name="simon-says" />
+                    </div>
+                    <div className="col-12 col-md-6 col-xl-4">
+                        <ProjectCard name="simon-says" />
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,16 +1,13 @@
-
-@media screen and (max-width: 450px) {
-    header {
-        width: 50vh;
-    }
-}
-
 header {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
-    background: transparent;
+   /*  background: #413589; 
+    opacity: 90%;*/
     box-shadow: none;
 }
 
@@ -28,15 +25,13 @@ nav::after {
     border: 1px solid #A5D7E8;
 }
 
+.header-Heading {
+    font-size: 6rem;
+    text-align: center;
+}
 
-
-/* Make h1 move to the center right of the section */
-h1 {
-    position: absolute;
-    top: 80%;
-    left: 20%;
-    transform: translate(0%, -150%);
-    color: white;
-    font-size: 3rem;
-    width: 300px;
+@media screen and (max-width: 650px) {
+    .header-Heading {
+        font-size: 4rem;
+    }
 }

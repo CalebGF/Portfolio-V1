@@ -9,7 +9,7 @@ function Header() {
     return (
         <header >
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top ">
-                <div className="container-fluid">
+                <div className="container-fluid justify-content-between">
                     <a className="navbar-brand " href="#">
                         <img src="./images/logo.png" alt="" width="40" height="34" className="d-inline-block align-text-top"/>
                         Caleb González Flores
@@ -19,8 +19,8 @@ function Header() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul className="navbar-nav ml-auto mb-2 mb-lg-0 text-center">
                             <li className="nav-item">
                                 <a className="nav-link" href="#aboutMe">{t('aboutMe')}</a>
                             </li>
@@ -34,13 +34,15 @@ function Header() {
                                 <a className="nav-link" href="#contact">{t('contact')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#contact"><LanguageSelector /></a>
+                                <a className="nav-link" href="#contact">
+                                    <LanguageSelector />
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <h1>{t('welcome')}</h1>
+            <h1 className='header-Heading'>{t('welcome')}</h1>
         </header>
     );
 }
