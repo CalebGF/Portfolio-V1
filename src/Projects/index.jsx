@@ -14,12 +14,7 @@ function Projects() {
                     <div className="col-12 col-md-6 col-xl-4">
                         <ProjectCard name="simon-says" />
                     </div>
-                    <div className="col-12 col-md-6 col-xl-4">
-                        <ProjectCard name="simon-says" />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-4">
-                        <ProjectCard name="simon-says" />
-                    </div>
+                    
                 </div>
             </div>
         </section>
