@@ -15,6 +15,11 @@
 
 .skill-image {
     width: 100px;
-    height: 100px;
+    height: 70px;
     margin: 0 auto;
+}
+
+.skill-title {
+    padding-top: 1rem;
+    font-size: 1.1rem;
 }

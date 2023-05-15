@@ -7,11 +7,11 @@ import SkillCard from "./SkillCard";
 function Skills() {    
     const { t } = useContext(LanguageContext);
 
-    const skillNames = ['css', 'firebase', 'git', 'html', 'javascript', 'node', 'postgresql', 'react', 'tailwindcss']; 
+    const skillNames = ['react', 'node', 'git', 'html', 'css', 'javascript', 'tailwindcss', 'postgresql', 'firebase']; 
     const skillLogos = skillNames.map(name => `./images/skill-logos/${name}-logo.svg`); 
 
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <div className="container">
                 <h3 className="section-heading">{t("skills")}</h3>
                 <div className="row">

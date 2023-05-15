@@ -6,7 +6,7 @@ import './AboutMe.css';
 function AboutMe() {
     const { t } = useContext(LanguageContext);
     return (
-        <section className='about-me'>
+        <section className='about-me' id='about-me'>
             <div className="container">
                 <h3 className="section-heading">{t('aboutMe')}</h3>
                 <div className="row about-row">

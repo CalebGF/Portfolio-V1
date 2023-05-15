@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 function Projects() {
     const { t } = useContext(LanguageContext);
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <div className="container">
                 <h3 className='text-center section-heading'>{t('projects')}</h3>
                 <div className="row">

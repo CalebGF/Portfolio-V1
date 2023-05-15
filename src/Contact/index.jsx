@@ -6,7 +6,7 @@ import "./Contact.css";
 function Contact() {
     const { t } = useContext(LanguageContext);
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="container">
                 <h3 className="text-center section-heading">{t("contact")}</h3>
                 
@@ -20,13 +20,13 @@ function Contact() {
 
                 <div className="row text-center contact-links">
                     <div className="col-6">
-                        <a href="https://github.com/CalebGF" className="contact-icon">
-                            <i className="fab fa-github primary-blue" ></i> GitHub
+                        <a href="https://www.linkedin.com/in/caleb-gonzalez-flores/" className="contact-icon">
+                            <i className="fab fa-linkedin"></i> Linkedin
                         </a>
                     </div>
                     <div className="col-6">
-                        <a href="https://www.linkedin.com/in/caleb-gonzalez-flores/" className="contact-icon">
-                            <i className="fab fa-linkedin"></i> Linkedin
+                        <a href="https://github.com/CalebGF" className="contact-icon">
+                            <i className="fab fa-github primary-blue" ></i> GitHub
                         </a>
                     </div>
                 </div>
