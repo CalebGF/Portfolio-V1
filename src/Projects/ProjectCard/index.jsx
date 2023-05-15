@@ -4,7 +4,8 @@ import { useContext } from 'react';
 
 function ProjectCard({ 
         name,
-        link 
+        linkDep,
+        linkGit 
     }) {
     const { t } = useContext(LanguageContext);
     const imageSrc = `./images/project-images/${name}.jpeg`;
@@ -19,10 +20,10 @@ function ProjectCard({
 
                 <div className="project-links row justify-content-center">
                     <div className="col-4 mx-4">
-                        <a href={link} className="btn btn-primary">Website</a>
+                        <a href={linkDep} className="btn btn-primary">Website</a>
                     </div>
                     <div className="col-4">
-                        <a href={link} className="btn btn-primary">GitHub</a>
+                        <a href={linkGit} className="btn btn-primary">GitHub</a>
                     </div>
                 </div>
             </div>

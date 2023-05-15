@@ -12,7 +12,11 @@ function Projects() {
                 <h3 className='text-center section-heading'>{t('projects')}</h3>
                 <div className="row">
                     <div className="col-12 col-md-6 col-xl-4">
-                        <ProjectCard name="simon-says" />
+                        <ProjectCard 
+                            name="simon-says" 
+                            linkDep="https://calebgf.github.io/Simon-Says/" 
+                            linkGit="https://github.com/CalebGF/Simon-Says/"
+                        />
                     </div>
                     
                 </div>
