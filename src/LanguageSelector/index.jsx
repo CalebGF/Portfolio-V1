@@ -12,13 +12,15 @@ function LanguageSelector() {
             <div className="col-5">
                 <img src={spainFlag}
                     onClick={() => changeLanguage('es')} 
-                    alt="Spain Flag" width="30" 
+                    alt="Spain Flag"
+                    className='flag-icon' 
                 />
             </div>
             <div className="col-5">     
                 <img src={ukFlag}
                     onClick={() => changeLanguage('en')}
-                    alt="UK Flag" width="30" 
+                    alt="UK Flag"
+                    className='flag-icon' 
                 />
 
             </div>

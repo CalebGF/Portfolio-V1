@@ -2,6 +2,22 @@
     padding: 2rem 0;
 }
 
+.projec-image {
+    width: 350px;
+    height: 300px;
+}
+
+.project-btn {
+    background-color: #41308C;
+    color: #fff;
+    border: 1px solid #87BFCC;
+}
+
+.project-btn:hover {
+    background-color: #87BFCC;
+    color: #41308C;
+}
+
 .project-card {
     position: relative;
     color: #fff;
@@ -43,3 +59,4 @@
     }
 
 }
+

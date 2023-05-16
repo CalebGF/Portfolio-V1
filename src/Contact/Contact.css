@@ -14,4 +14,9 @@
     color: #fff;
     font-size: 1.8rem;
     text-decoration: none;
+    transition: 0.5s color ease;
+}
+
+.contact-icon:hover {
+    color: #41308C;
 }

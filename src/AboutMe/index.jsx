@@ -14,7 +14,7 @@ function AboutMe() {
                         <p className="">{t('aboutMeText')}</p>
                     </div>
                     <div className="col-12 col-md-4 text-center">
-                        <img className="img-fluid" src="./images/selfie.png" alt="Selfie of Caleb" border="0" />
+                        <img className="img-fluid about-me-image" src="./images/selfie.webp" alt="Selfie of Caleb" border="0" />
                     </div>
                 </div>
 

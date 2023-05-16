@@ -11,7 +11,7 @@ function Header() {
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top ">
                 <div className="container-fluid justify-content-between">
                     <a className="navbar-brand " href="#">
-                        <img src="./images/logo.png" alt="" width="40" height="34" className="d-inline-block align-text-top"/>
+                        <img src="./images/logo.webp" alt="" width="40" height="34" className="d-inline-block align-text-top"/>
                         Caleb González Flores
                     </a>
 
@@ -34,7 +34,7 @@ function Header() {
                                 <a className="nav-link" href="#contact">{t('contact')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#contact">
+                                <a className="nav-link" href="#">
                                     <LanguageSelector />
                                 </a>
                             </li>

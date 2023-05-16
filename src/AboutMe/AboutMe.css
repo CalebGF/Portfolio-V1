@@ -11,7 +11,8 @@
     padding: 2rem 1rem;
 }
 
-.about-me img{
-    width: 250px;
+.about-me-image{
+    width: 270px;
+    height: 350px;
     border-radius: 10%;
 }
