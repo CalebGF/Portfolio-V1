@@ -21,12 +21,22 @@ function Contact() {
                 <div className="row text-center contact-links">
                     <div className="col-6">
                         <a href="https://www.linkedin.com/in/caleb-gonzalez-flores/" className="contact-icon">
-                            <i className="fab fa-linkedin"></i> Linkedin
+                            <div className="row">
+                                    <i className="fab fa-linkedin"></i>
+                            </div>
+                            <div className="row">
+                                <p className="text-center">Linkedin</p>
+                            </div>
                         </a>
                     </div>
                     <div className="col-6">
                         <a href="https://github.com/CalebGF" className="contact-icon">
-                            <i className="fab fa-github primary-blue" ></i> GitHub
+                            <div className="row">
+                                    <i className="fab fa-github primary-blue" ></i>
+                            </div>
+                            <div className="row">
+                                <p className="text-center">GitHub</p>
+                            </div>
                         </a>
                     </div>
                 </div>
