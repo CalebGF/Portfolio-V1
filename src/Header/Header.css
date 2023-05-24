@@ -10,6 +10,10 @@ nav {
     box-shadow: none;
 }
 
+.navbar-nav .nav-item {
+    margin: auto 0;
+}
+
 
 .navbar-toggler {
     border: 1px solid #A5D7E8;

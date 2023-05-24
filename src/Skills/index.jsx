@@ -15,9 +15,9 @@ function Skills() {
             <div className="container">
                 <h3 className="section-heading">{t("skills")}</h3>
                 <div className="row">
-                    { skillLogos.map((logo, i) => (
-                        <div className="col-4 col-md-2 pt-3">
-                            <SkillCard key={i} logo={logo} name={skillNames[i]} />
+                    { skillLogos.map((logo, index) => (
+                        <div className="col-4 col-md-2 pt-3" key={logo}>
+                            <SkillCard  logo={logo} name={skillNames[index]} />
                         </div>
                     ))}
                 </div>

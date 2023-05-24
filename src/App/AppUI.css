@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato'), url(./fonts/Lato/Lato-Regular.ttf) format('opentype');
+}  
+
 body {
     background:linear-gradient(150deg, rgba(68, 48, 140, 1) 1%, rgba(50, 75, 127, 1) 37%, rgba(63, 142, 157, 0.86) 65%, rgba(165, 215, 232, 1) 91%);
     /* background-color: #000; */
     color: #fff;
+    font-family: 'Lato', sans-serif;
 }
 
 section {

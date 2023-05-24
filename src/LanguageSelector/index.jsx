@@ -8,25 +8,26 @@ function LanguageSelector() {
   const { changeLanguage } = React.useContext(LanguageContext);
 
   return (
-        <div className="row languages-icons justify-content-between">
-            <div className="col-5">
-                <img src={spainFlag}
-                    onClick={() => changeLanguage('es')} 
-                    alt="Spain Flag"
-                    className='flag-icon' 
-                />
-            </div>
-            <div className="col-5">     
-                <img src={ukFlag}
-                    onClick={() => changeLanguage('en')}
-                    alt="UK Flag"
-                    className='flag-icon' 
-                />
-
-            </div>
-            
-
-        </div>
+    <>
+    <li className="nav-item">
+        <a className="nav-link" href="#">
+            <img src={spainFlag}
+                onClick={() => changeLanguage('es')} 
+                alt="Spain Flag"
+                className='flag-icon' 
+            />
+        </a>
+    </li>
+    <li className="nav-item">
+        <a className="nav-link" href="#">
+            <img src={ukFlag}
+                onClick={() => changeLanguage('en')} 
+                alt="UK Flag"
+                className='flag-icon' 
+            />
+        </a>
+    </li>
+    </>
   );
 }
 

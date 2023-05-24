@@ -15,8 +15,8 @@ function Header() {
                         Caleb González Flores
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -33,11 +33,7 @@ function Header() {
                             <li className="nav-item">
                                 <a className="nav-link" href="#contact">{t('contact')}</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <LanguageSelector />
-                                </a>
-                            </li>
+                            <LanguageSelector />
                         </ul>
                     </div>
                 </div>
