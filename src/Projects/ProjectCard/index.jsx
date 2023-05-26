@@ -4,6 +4,7 @@ import { useContext } from 'react';
 
 function ProjectCard({ 
         name,
+        description,
         linkDep,
         linkGit 
     }) {
@@ -16,7 +17,7 @@ function ProjectCard({
                 
                 <h5 className="card-title text-center pb-3">{name.toUpperCase()}</h5>
                 
-                <p className="card-text text-center">{t('description1')}</p>
+                <p className="card-text text-center">{description}</p>
 
                 <div className="project-links row justify-content-center">
                     <div className="col-4 mx-4">
